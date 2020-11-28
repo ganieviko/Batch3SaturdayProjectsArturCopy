@@ -11,7 +11,7 @@ public class PriceForOneLaptop {
 
         Return type is int
 
-        This method is calling the AllData method from Data class. Laptop ID is a parameter laptopID
+        This method is calling the AllData method from Project9.Data class. Laptop ID is a parameter laptopID
 
         This method need to call all other methods in Calculation class and get the price and return that total Amount.
      */
