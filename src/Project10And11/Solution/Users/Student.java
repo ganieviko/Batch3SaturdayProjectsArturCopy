@@ -1,4 +1,4 @@
-package Project10.Solution.Users;
+package Project10And11.Solution.Users;
 
 public class Student extends User{
     public Student(String name, String lastName, int userId) {

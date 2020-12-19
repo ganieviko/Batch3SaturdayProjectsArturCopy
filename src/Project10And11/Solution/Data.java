@@ -1,13 +1,13 @@
-package Project10.Solution;
+package Project10And11.Solution;
 
-import Project10.Solution.Books.Book;
-import Project10.Solution.Books.Fiction;
-import Project10.Solution.Books.NonFiction;
-import Project10.Solution.Books.Reference;
-import Project10.Solution.Users.Librarian;
-import Project10.Solution.Users.Student;
-import Project10.Solution.Users.Teacher;
-import Project10.Solution.Users.User;
+import Project10And11.Solution.Books.Book;
+import Project10And11.Solution.Books.Fiction;
+import Project10And11.Solution.Books.NonFiction;
+import Project10And11.Solution.Books.Reference;
+import Project10And11.Solution.Users.Librarian;
+import Project10And11.Solution.Users.Student;
+import Project10And11.Solution.Users.Teacher;
+import Project10And11.Solution.Users.User;
 
 import java.util.HashMap;
 import java.util.Map;

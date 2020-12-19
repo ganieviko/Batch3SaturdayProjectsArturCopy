@@ -1,4 +1,4 @@
-package Project10.Solution.Users;
+package Project10And11.Solution.Users;
 
 public class Teacher extends User {
 

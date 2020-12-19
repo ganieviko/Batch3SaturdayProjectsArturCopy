@@ -1,7 +1,7 @@
-package Project10.Solution;
+package Project10And11.Solution;
 
-import Project10.Solution.Users.Librarian;
-import Project10.Solution.Users.User;
+import Project10And11.Solution.Users.Librarian;
+import Project10And11.Solution.Users.User;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

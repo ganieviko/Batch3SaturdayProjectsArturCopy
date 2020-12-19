@@ -1,4 +1,4 @@
-package Project10;
+package Project10And11;
 
 /*
  * This is a simple and basic school library management software simulation project
@@ -52,12 +52,10 @@ Books:
 
    Fiction Books:
       Fiction Book ids start with 1 (For example: 15087)
-      Fiction books must have one of the five categories: WORLD_CLASSICS, NOVELS, LITERATURE, EARLY_AGE or GENERAL
       Any user can borrow a fiction book
 
    Non-Fiction Books:
       Non-Fiction Book ids start with 2 (For example: 20064)
-      Non-Fiction books must have one of the four categories: MATH, SCIENCE, SOCIAL, HISTORICAL
       Any user can borrow a non-fiction book
 
    Reference Books:

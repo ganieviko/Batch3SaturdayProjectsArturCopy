@@ -1,10 +1,10 @@
-package Project10.Solution.Users;
+package Project10And11.Solution.Users;
 
-import Project10.Solution.Books.Book;
-import Project10.Solution.Books.Fiction;
-import Project10.Solution.Books.NonFiction;
-import Project10.Solution.Books.Reference;
-import Project10.Solution.Data;
+import Project10And11.Solution.Books.Book;
+import Project10And11.Solution.Books.Fiction;
+import Project10And11.Solution.Books.NonFiction;
+import Project10And11.Solution.Books.Reference;
+import Project10And11.Solution.Data;
 
 import java.util.Scanner;
 

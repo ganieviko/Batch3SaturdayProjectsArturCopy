@@ -1,4 +1,4 @@
-package Project10.Tests;
+package Project10And11.Tests;
 
 
 import org.junit.Rule;
