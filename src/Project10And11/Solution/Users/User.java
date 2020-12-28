@@ -56,6 +56,9 @@ public class User {
     }
 
     protected void checkOutBookToUser(User user, Book book) {
+        if (book.isCheckedOut()){
+            System.out.println("This book is already checked out by a user.");
+        } else
         if (user.getBookList().size() >= user.BOOK_LIMIT) {
             System.out.println("You have already reached your book limit. You cannot borrow more books.");
         } else if (book instanceof Reference) {
