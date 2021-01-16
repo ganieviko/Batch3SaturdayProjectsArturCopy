@@ -102,7 +102,7 @@ public class Project14_Solution {
         driver.findElement(By.cssSelector("a[href='/addresses']")).click();
 
 //        Click on Edit button
-        driver.findElement(By.xpath("//table/tbody/tr[1]/td[6]/a")).click();
+        driver.findElement(By.cssSelector("table>tbody>tr:first-child>td:nth-child(6)>a")).click();
 
 //        Change the first name as "Peter"
         driver.findElement(By.id("address_first_name")).sendKeys("Peter");
@@ -129,9 +129,9 @@ public class Project14_Solution {
 
 //        Click on Addresses
         driver.findElement(By.cssSelector("a[href='/addresses']")).click();
-/*
+
 //        Click on Destroy
-        driver.findElement(By.xpath("//table/tbody/tr[1]/td[7]/a")).click();
+        driver.findElement(By.cssSelector("table>tbody>tr:first-child>td:nth-child(7)>a")).click();
 
 //        Confirm deleting the address
         driver.switchTo().alert().accept();
@@ -143,8 +143,8 @@ public class Project14_Solution {
         } else {
             System.out.println("An error occurred while deleting the address!");
         }
-*/
+
 //        Close the browser
-//        driver.close();
+        driver.close();
     }
 }
