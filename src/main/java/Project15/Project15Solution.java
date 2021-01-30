@@ -47,7 +47,8 @@ public class Project15Solution {
         driver.findElement(By.cssSelector("ms-add-button[tooltip=\"SCHOOL_DEPARTMENT.TITLE.ADD\"]")).click();
 
         // On the pop-up window, type "High School" for the name of the department and "HS-1" for the code.
-        wait.until((ExpectedConditions.elementToBeClickable(By.cssSelector("ms-text-field[formcontrolname=\"name\"]>input"))));
+        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("ms-text-field[formcontrolname=\"name\"]>input")));
+
         driver.findElement(By.cssSelector("ms-text-field[formcontrolname=\"name\"]>input")).sendKeys("High School");
         driver.findElement(By.cssSelector("ms-text-field[formcontrolname=\"code\"]>input")).sendKeys("HS-1");
 
