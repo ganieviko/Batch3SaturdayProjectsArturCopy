@@ -5,7 +5,7 @@ public class Project19 {
 
 /*
 Design your project as POM (Page Object Model)
-In your test framework you are asked to use JAva, Selenium, TestNG and Cucumber
+In your test framework you are asked to use Java, Selenium, TestNG and Cucumber
 We will test the campus website (https://test.campus.techno.study)
 The username is "daulet2030@gmail.com" and the password is "TechnoStudy123@"
 Do not use Thread.sleep()
@@ -21,7 +21,7 @@ Tests:
 - You are also expected to create your own tests (similar to employees) regarding "entrance exams"
 
 Project Structure:
-- Open a new Maven project
+- Create a new Maven project
 - Add your necessary dependencies (Do not forget to synchronize by clicking on the Maven icon icon)
 - In your "java" folder under the "test" folder create the following folders:
    * features
